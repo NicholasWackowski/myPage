@@ -1,0 +1,83 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	/*Applies a blue-to-black gradient over the background. Not particularly satisfied with these colors, might change them.*/
+	/*background-image:linear-gradient(white, #00569F);*/
+	background-image:linear-gradient(black, #0056BF);
+	/*background-image:linear-gradient(cyan, black);*/
+	background-size:100%;
+
+	/*Aligns all content (unless otherwise specified) to the center*/
+	align-content:center;
+	margin: auto;
+
+	/*Set font to TNR*/
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+#header{
+	/*Center text in header*/
+	text-align:center;
+	/*Color the text seagreen*/
+	color:gold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#personal_info{ /*Sets these attributes to ALL personal_info ID's, since they are all contained within this div id.*/
+	color:gold;
+	font-family: "Times New Roman", Times, serif;
+	font-size:120%;
+	text-align:justify; /*Justifies text, to make the blocks look a bit more defined and clear.*/
+}
+
+#personal_info_left{
+	float:left; /*Since this text should be on the LEFT of the image, it floats left and only takes up 32% of the screen.*/
+	padding:12px;
+	height:50%;
+	width:32%;
+}
+
+#personal_info_image{ /*Sets the image to be in the center*/
+	float:center;
+	/*align-content:left;*/
+}
+
+#personal_info_right{
+	float:right; /*Since this text should be on the RIGHT of the image, it floats left and only takes up 20% of the screen.*/
+	padding:12px;
+	height:50%;
+	width:20%;
+}
+
+#assignment_title{ /*clear:both undoes the 'float' from before, starting the content in assignment-title from the left.*/
+	clear:both;
+	color:white;
+	padding:12px;
+}
+
+#assignments{ /*Makes the font size of ALL text within 'assignments' 150%*/
+	font-size:150%;
+}
+/*Some basic work to make the links look nice*/
+.link:link{
+	color:lightblue; /*Make the link a light blue color, thus noticeable*/
+	text-decoration: none;
+}
+.link:hover{
+	color:lightblue; /*When hovering the mouse over the link, make it light blue and add an underline.*/
+	text-decoration: underline;
+}
+.link:visited{	/*If the link has been visited, color it indigo. Not 100% on this color, might change it later.*/
+	color:indigo;
+	text-decoration: none;
+}
+#assignments ul{	/*Applies 'marker.png' (a knight's helmet) to be the image used as bullet points for the list*/
+	list-style-image:url("marker.png");
+	color:white;
+}
+
+tr{ /*Causes the text within the table to be gold. Because gold-on-black is a nice color.*/
+	color:gold;
+}
