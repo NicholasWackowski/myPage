@@ -9,7 +9,7 @@ body {
 	background-size:100%;
 
 	/*Aligns all content (unless otherwise specified) to the center*/
-	align-content:center;
+/*	align-content:center;*/
 	margin: auto;
 
 	/*Set font to TNR*/
@@ -21,8 +21,9 @@ body {
 }
 
 #page{
+	width:1000px;
 	margin:0 auto;
-	text-align:left;
+/*	text-align:center;*/
 	position:relative;
 }
 
@@ -54,16 +55,16 @@ body {
 
 #personal_info_1{
 	float:left; /*Since this text should be on the LEFT of the image, it floats left and only takes up 32% of the screen.*/
-	padding:15px;
+	padding:25px;
 /*	height:50%;*/
-	width:400px;
+	width:375px;
 }
 
 #personal_info_2{
-	float:left; /*Since this text should be on the RIGHT of the image, it floats left and only takes up 20% of the screen.*/
-	padding:15px;
+	float:right; /*Since this text should be on the RIGHT of the image, it floats left and only takes up 20% of the screen.*/
+	padding:25px;
 /*	height:50%;*/
-	width:400px;
+	width:375px;
 }
 
 #personal_info_image{ /*Sets the image to be in the center*/
@@ -72,7 +73,7 @@ body {
 	right:10px;*/
 	float:right;
 	margin:10px;
-	width: 410px;
+	width: 360px;
     height: 300px;
     background-image: url("../images/vermont.jpg");
     background-repeat: no-repeat;
@@ -84,9 +85,9 @@ body {
 }
 
 #shirt_and_tie_image{
-	float:right;
-	margin:20px;
-	margin-right:50px;
+	float:left;
+	margin:10px;
+	margin-top:60px;
 	width: 200px;
     height: 200px;
     background-image: url("../images/me.png");
@@ -96,9 +97,23 @@ body {
 	right:10px;
 	top:450px;*/
 }
+#left_image{
+	float:right;
+	margin:20px;
+	width: 200px;
+    height: 200px;
+    background-image: url("../images/rightPicture.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	/*
+	position:absolute;
+	right:220px;
+	top:450px;*/
+}
 #right_image{
 	float:right;
 	margin:20px;
+	margin-right:90px;
 	width: 200px;
     height: 200px;
     background-image: url("../images/rightPicture.png");
