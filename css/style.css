@@ -4,7 +4,7 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 body {
 	/*Applies a blue-to-black gradient over the background. Not particularly satisfied with these colors, might change them.*/
 	/*background-image:linear-gradient(white, #00569F);*/
-	background-image:linear-gradient(black, #0056BF);
+	background-image:linear-gradient(#00349D, lightblue);
 	/*background-image:linear-gradient(cyan, black);*/
 	background-size:100%;
 
@@ -16,6 +16,15 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
+.clearfix{
+	clear:both;
+}
+
+#page{
+	margin:0 auto;
+	text-align:left;
+	position:relative;
+}
 
 #header{
 	/*Center text in header*/
@@ -25,6 +34,17 @@ body {
 	font-family: "Times New Roman", Times, serif;
 }
 
+#contact{
+	/*Center text in header*/
+	text-align:center;
+	/*Color the text seagreen*/
+	color:gold;
+	font-family: "Times New Roman", Times, serif;
+}
+#contact a{
+	color: white;
+}
+
 #personal_info{ /*Sets these attributes to ALL personal_info ID's, since they are all contained within this div id.*/
 	color:gold;
 	font-family: "Times New Roman", Times, serif;
@@ -32,23 +52,62 @@ body {
 	text-align:justify; /*Justifies text, to make the blocks look a bit more defined and clear.*/
 }
 
-#personal_info_left{
+#personal_info_1{
 	float:left; /*Since this text should be on the LEFT of the image, it floats left and only takes up 32% of the screen.*/
-	padding:12px;
-	height:50%;
-	width:32%;
+	padding:15px;
+/*	height:50%;*/
+	width:400px;
+}
+
+#personal_info_2{
+	float:left; /*Since this text should be on the RIGHT of the image, it floats left and only takes up 20% of the screen.*/
+	padding:15px;
+/*	height:50%;*/
+	width:400px;
 }
 
 #personal_info_image{ /*Sets the image to be in the center*/
-	float:center;
-	/*align-content:left;*/
+	/*position:absolute;
+	top:145px;
+	right:10px;*/
+	float:right;
+	margin:10px;
+	width: 410px;
+    height: 300px;
+    background-image: url("../images/vermont.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	/*padding:10px;
+	width:410px;
+	height:300px;
+	align-content:left;*/
 }
 
-#personal_info_right{
-	float:right; /*Since this text should be on the RIGHT of the image, it floats left and only takes up 20% of the screen.*/
-	padding:12px;
-	height:50%;
-	width:20%;
+#shirt_and_tie_image{
+	float:right;
+	margin:20px;
+	margin-right:50px;
+	width: 200px;
+    height: 200px;
+    background-image: url("../images/me.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	/*position:absolute;
+	right:10px;
+	top:450px;*/
+}
+#right_image{
+	float:right;
+	margin:20px;
+	width: 200px;
+    height: 200px;
+    background-image: url("../images/rightPicture.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	/*
+	position:absolute;
+	right:220px;
+	top:450px;*/
 }
 
 #assignment_title{ /*clear:both undoes the 'float' from before, starting the content in assignment-title from the left.*/
@@ -62,19 +121,23 @@ body {
 }
 /*Some basic work to make the links look nice*/
 .link:link{
-	color:lightblue; /*Make the link a light blue color, thus noticeable*/
+	color:darkblue; /*Make the link a light blue color, thus noticeable*/
 	text-decoration: none;
 }
 .link:hover{
-	color:lightblue; /*When hovering the mouse over the link, make it light blue and add an underline.*/
+	color:purple; /*When hovering the mouse over the link, make it light blue and add an underline.*/
 	text-decoration: underline;
 }
 .link:visited{	/*If the link has been visited, color it indigo. Not 100% on this color, might change it later.*/
 	color:indigo;
 	text-decoration: none;
 }
+.link:active{
+	color:red;
+	text-decoration: underline;
+}
 #assignments ul{	/*Applies 'marker.png' (a knight's helmet) to be the image used as bullet points for the list*/
-	list-style-image:url("marker.png");
+	list-style-image:url("../images/marker.png");
 	color:white;
 }
 

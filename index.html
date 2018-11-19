@@ -12,69 +12,81 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	<title>Nicholas Wackowski</title>
 </head>
-
 	<!-- The "body", or main portion of the page -->
 	<body>
-		<div id="header">
-			<h1>Nicholas Wackowski</h1>
-			<h6>Page originally created 9/15/18</h4>
-			<h6>(Last updated 11/17/2018)</h4>
-		</div>
-		
-		<div id="personal_info">	<!-- All of the personal information is in this div.-->
-			<!-- Below is going to show up to the LEFT of the image.-->
-			<p id="personal_info_left">Nicholas Wackowski is a fourth-year Computer Science student at University of Massachusetts - Lowell. He began programming early in high school, and quickly developed a love for learning how to use new tools and solving puzzles. He is currently learning how to use HTML and CSS, including tools such as Bootstrap! He enjoys using Windows and Linux work environments, and his favorite programming tools include Visual Studio and Sublime Text.</p>
+		<div id="page">
+			<div id="header">
+				<h1>Nicholas Wackowski</h1>
+				<h6>Page originally created 9/15/18</h6>
+				<h6>(Last updated 11/19/2018)</h6>
+			</div>
+			<div id="contact">
+				<h3>Contact me at: <a href="mailto:nicholasWackowski@gmail.com" target="_top">nicholaswackowski@gmail.com</a></h3>
+			</div>
+			<div id="personal_info">	<!-- All of the personal information is in this div.-->
+				<!-- Below is going to show up to the LEFT of the image.-->
+				<p id="personal_info_1">Nicholas Wackowski is a fourth-year Computer Science student at University of Massachusetts - Lowell. He began programming early in high school, and quickly developed a love for learning how to use new tools and solving puzzles. He is currently learning how to use HTML and CSS, including tools such as Bootstrap! He enjoys using Windows and Linux work environments, and his favorite programming tools include Visual Studio and Sublime Text.</p>
 
-			<!-- Below is an image, which will appear in the CENTER of the top of the page.-->
-			<img  id="personal_info_left" src="images/vermont.jpg" alt="Nicholas Wackowski in Vermont, 2015" width="30%" height="333">
+				<!-- Below is going to show up to the RIGHT of the image.-->
+				<p id="personal_info_2">His favorite languages to code in are Java and C++, although his other languages are listed below. When he isn't programming, Nicholas enjoys playing Dungeons and Dragons and studying game design and development. He is also a fan of movies by Marvel and playing indie video games. He is currently obsessed with Darkest Dungeon by Red Hook Studios and Tabletop Simulator by Berserk Games.</p>
 
-			<!-- Below is going to show up to the RIGHT of the image.-->
-			<p id="personal_info_left">His favorite languages to code in are Java and C++, although his other languages are listed below. When he isn't programming, Nicholas enjoys playing Dungeons and Dragons and studying game design and development. He is also a fan of movies by Marvel and playing indie video games. He is currently obsessed with Darkest Dungeon by Red Hook Studios.</p>
-			<br>
-		</div>
+				<!-- Below is an image, which will appear in the CENTER of the top of the page.-->
+				<div id="personal_info_image"></div>
+				<div class="clearfix"></div>
+				<!--<img  id="personal_info_image" src="images/vermont.jpg" alt="Nicholas Wackowski in Vermont, 2015"> -->
 
-		<div id="assignment_title">
-			<h4>GUI PROJECTS:</h4>	<!-- Header for the list of assignments.-->
-		</div>
-		<div id="assignments">
-			<ul>	<!-- Creates a list of assignments, which will be added to over the course of the semester.-->
-				<li>The HTML and CSS for this page!</li>
-				<li class="link"><a href="https://nicholaswackowski.github.io/SampleWebsite/">Sample Website: Pacific Vacations</a></li>
-				<li class="link"><a href="https://nicholaswackowski.github.io/MultiplicationTable/">JavaScript Multiplication Table</li>
-				<li class="link"><a href="https://nicholaswackowski.github.io/Izakaya-Eorzea/">Iyaka-Eorzea Website (WIP!)</li>
-			</ul>
-		</div>
-		<div class="skills">
-			<!-- Below is a table, copy-pasted from the Bootstrap website. It is dark and lights up when the mouse hovers over it.-->
-            <table class="table table-dark table-hover">
-                <thead>
-				    <tr>
-				    	<th scope="col">Relevant Skills</th>
-				    </tr>
-				</thead>
-				<tbody>
-				    <tr>
-				      	<th scope="row">Experienced in:</th>
-				      	<td>Java, C, C++, Python, HTML, CSS</td>
-				    </tr>
-				    <tr>
-				      	<th scope="row">Literate in:</th>
-				      	<td>OCaml, MIPS</td>
-				    </tr>
-				    <tr>
-				      	<th scope="row">Software:</th>
-				      	<td>Visual Studio, Sublime Text, GDB Debugger, Construct 2, Hammer Level Editor, and many more!</td>
-				    </tr>
-				    <tr>
-				      	<th scope="row">Technical Skills:</th>
-				      	<td>Object-oriented programming, functional languages, scripting languages, recursion, debugging, research and analysis of complex algorithms, and many more!</td>
-				    </tr>
-				    <tr>
-				    	<th scope="row">Soft Skills:</th>
-				     	<td>Great communication skills and enthusiasm, happy to constantly learn new tools and organizations. Highly adapable, able to fit into many different positions in a group (such as leader, follower, or anywhere in between).</td>
-			    	</tr>
-			    </tbody>
-        	</table>
-        </div>
+				<br>
+			</div>
+
+			<div  id="shirt_and_tie_image"></div>
+			<div  id="right_image"></div>
+			<div  id="right_image"></div>
+			<div  id="right_image"></div>
+			<div  id="right_image"></div>
+
+			<div id="assignment_title">
+				<h4>GUI PROJECTS:</h4>	<!-- Header for the list of assignments.-->
+			</div>
+			<div id="assignments">
+				<ul>	<!-- Creates a list of assignments, which will be added to over the course of the semester.-->
+					<li>The HTML and CSS for this page!</li>
+					<li><a class="link"href="https://nicholaswackowski.github.io/SampleWebsite/">Sample Website: Pacific Vacations</a></li>
+					<li><a class="link" href="https://nicholaswackowski.github.io/MultiplicationTable/">JavaScript Multiplication Table</a></li>
+					<li><a class="link" href="https://nicholaswackowski.github.io/Izakaya-Eorzea/">Iyaka-Eorzea Website (WIP!)</a></li>
+				</ul>
+			</div>
+			<div class="skills">
+				<!-- Below is a table, copy-pasted from the Bootstrap website. It is dark and lights up when the mouse hovers over it.-->
+	            <table class="table table-dark table-hover">
+	                <thead>
+					    <tr>
+					    	<th scope="col">Relevant Skills</th>
+					    </tr>
+					</thead>
+					<tbody>
+					    <tr>
+					      	<th scope="row">Experienced in:</th>
+					      	<td>Java, C, C++, Python, HTML, CSS</td>
+					    </tr>
+					    <tr>
+					      	<th scope="row">Literate in:</th>
+					      	<td>OCaml, MIPS</td>
+					    </tr>
+					    <tr>
+					      	<th scope="row">Software:</th>
+					      	<td>Visual Studio, Sublime Text, GDB Debugger, Construct 2, Hammer Level Editor, and many more!</td>
+					    </tr>
+					    <tr>
+					      	<th scope="row">Technical Skills:</th>
+					      	<td>Object-oriented programming, functional languages, scripting languages, recursion, debugging, research and analysis of complex algorithms, and many more!</td>
+					    </tr>
+					    <tr>
+					    	<th scope="row">Soft Skills:</th>
+					     	<td>Great communication skills and enthusiasm, happy to constantly learn new tools and organizations. Highly adapable, able to fit into many different positions in a group (such as leader, follower, or anywhere in between).</td>
+				    	</tr>
+				    </tbody>
+	        	</table>
+	        </div>
+	    </div>
 	</body>
 </html>
