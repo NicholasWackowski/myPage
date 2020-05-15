@@ -129,7 +129,7 @@ body {
 }
 /*Some basic work to make the links look nice*/
 .link:link{
-	color:cyan; /*Make the link a light blue color, thus noticeable*/
+	color:#6495ED; /*Make the link a cornflower blue*/
 	text-decoration: none;
 }
 .link:hover{
