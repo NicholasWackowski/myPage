@@ -4,7 +4,7 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 body {
 	/*Applies a blue-to-black gradient over the background. Not particularly satisfied with these colors, might change them.*/
 	/*background-image:linear-gradient(white, #00569F);*/
-	background-image:linear-gradient(#00349D, lightblue);
+	background-image:linear-gradient(#373737, #0E0B16);
 	/*background-image:linear-gradient(cyan, black);*/
 	background-size:100%;
 
@@ -31,7 +31,7 @@ body {
 	/*Center text in header*/
 	text-align:center;
 	/*Color the text seagreen*/
-	color:gold;
+	color:#C0B283;
 	font-family: "Times New Roman", Times, serif;
 }
 
@@ -39,15 +39,15 @@ body {
 	/*Center text in header*/
 	text-align:center;
 	/*Color the text seagreen*/
-	color:gold;
+	color:#C0B283;
 	font-family: "Times New Roman", Times, serif;
 }
 #contact a{
-	color: white;
+	color: #F4F4F4;
 }
 
 .personal_info{ /*Sets these attributes to ALL personal_info ID's, since they are all contained within this div id.*/
-	color:gold;
+	color:#C0B283;
 	font-family: "Times New Roman", Times, serif;
 	font-size:120%;
 	text-align:justify; /*Justifies text, to make the blocks look a bit more defined and clear.*/
@@ -120,7 +120,7 @@ body {
 
 #assignment_title{ /*clear:both undoes the 'float' from before, starting the content in assignment-title from the left.*/
 	clear:both;
-	color:white;
+	color:#F4F4F4;
 	padding:12px;
 }
 
@@ -137,7 +137,7 @@ body {
 	text-decoration: underline;
 }
 .link:visited{	/*If the link has been visited, color it indigo. Not 100% on this color, might change it later.*/
-	color:indigo;
+	color:#C4C4D8;
 	text-decoration: none;
 }
 .link:active{
@@ -146,9 +146,12 @@ body {
 }
 #assignments ul{	/*Applies 'marker.png' (a knight's helmet) to be the image used as bullet points for the list*/
 	list-style-image:url("../images/marker.png");
-	color:white;
+	color:#F4F4F4;
 }
 
 tr{ /*Causes the text within the table to be gold. Because gold-on-black is a nice color.*/
-	color:gold;
+	color:#C0B283;
+}
+th{
+	color:#DCD0C0;
 }
