@@ -1,5 +1,5 @@
-<!-- Page written and designed by Nicholas Wackowski, 10/10/2018 -->
-<!-- Contact @ nicholas_wackowski@student.uml.edu -->
+<!-- Page written and designed by Nicholas Wackowski, 5/14/2020 -->
+<!-- Contact @ nicholaswackowski@gmail.com -->
 <!DOCTYPE html>
 <html lang="en">	<!-- The page is in English -->
 <head>
@@ -7,80 +7,107 @@
     <link href="css/style.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 	<title>Nicholas Wackowski</title>
 </head>
 	<!-- The "body", or main portion of the page -->
 	<body>
 		<div id="page">
-			<div id="header">
-				<h1>Nicholas Wackowski</h1>
-				<h6>Page originally created 9/15/18</h6>
-				<h6>(Last updated 11/19/2018)</h6>
-			</div>
-			<div id="contact">
-				<h3>Contact me at: <a href="mailto:nicholasWackowski@gmail.com" target="_top">nicholaswackowski@gmail.com</a></h3>
-			</div>
-			<div id="personal_info">	<!-- All of the personal information is in this div.-->
-				<!-- Below is going to show up to the LEFT of the image.-->
-				<p id="personal_info_1">Nicholas Wackowski is a fourth-year Computer Science student at University of Massachusetts - Lowell. He began programming early in high school, and quickly developed a love for learning how to use new tools and solving puzzles. He is currently learning how to use HTML and CSS, including tools such as Bootstrap! He enjoys using Windows and Linux work environments, and his favorite programming tools include Visual Studio and Sublime Text.</p>
-				<div  id="shirt_and_tie_image"></div>
+			<div class="container pt-12">
+				<div class="row">
+					<div class="col-sm-12 d-flex justify-content-center">
+						<div id="header">
+							<h1>Nicholas Wackowski</h1>
+							<h6>Page originally created 9/15/18</h6>
+							<h6>(Last updated 5/14/2020)</h6>
+						
+							<div id="contact">
+								<h3>Contact me at: <a href="mailto:nicholasWackowski@gmail.com" target="_top">nicholaswackowski@gmail.com</a></h3>
+							</div>
+						</div>
+					</div>
+				</div>
 
-				<!-- Below is going to show up to the RIGHT of the image.-->
-				<p id="personal_info_2">His favorite languages to code in are Java and C++, although his other languages are listed below. When he isn't programming, Nicholas enjoys playing Dungeons and Dragons and studying game design and development. He is also a fan of movies by Marvel and playing indie video games. He is currently obsessed with Darkest Dungeon by Red Hook Studios and Tabletop Simulator by Berserk Games.</p>
+				<div class="row">
 
-				<div class="clearfix"></div>
-				<!--<img  id="personal_info_image" src="images/vermont.jpg" alt="Nicholas Wackowski in Vermont, 2015"> -->
-			</div>
+					<!-- <div id="personal_info"> -->	<!-- All of the personal information is in this div.-->
+						<div class="col-sm-4">
+							<!-- Below is going to show up to the LEFT of the image.-->
+							<p class="personal_info">Nicholas Wackowski is a recent graduate of Computer Science at University of Massachusetts - Lowell. He began programming early in high school, and quickly developed a love for learning how to use new tools and solving puzzles. He enjoys using Windows and Linux work environments, and his favorite programming tools include Visual Studio, Jupyter Notebooks, and Sublime Text.</p>
+						</div>
 
-			<div id="right_image"></div>
-			<div id="personal_info_image"></div>
-			<div id="left_image"></div>
+						<div class="col-sm-4">
+							<!-- <div  id="shirt_and_tie_image"></div> -->
+							<img src="images/me.png" alt="Nicholas Wackowski" class="container-fluid">
+						</div>
 
-			<div id="assignment_title">
-				<h4>GUI PROJECTS:</h4>	<!-- Header for the list of assignments.-->
-			</div>
-			<div id="assignments">
-				<ul>	<!-- Creates a list of assignments, which will be added to over the course of the semester.-->
-					<li>The HTML and CSS for this page!</li>
-					<li><a class="link"href="https://nicholaswackowski.github.io/SampleWebsite/">Sample Website: Pacific Vacations</a></li>
-					<li><a class="link" href="https://nicholaswackowski.github.io/MultiplicationTable/">JavaScript Multiplication Table</a></li>
-					<li><a class="link" href="https://nicholaswackowski.github.io/Izakaya-Eorzea/">Iyaka-Eorzea Website (WIP!)</a></li>
-				</ul>
-			</div>
-			<div class="skills">
-				<!-- Below is a table, copy-pasted from the Bootstrap website. It is dark and lights up when the mouse hovers over it.-->
-	            <table class="table table-dark table-hover">
-	                <thead>
-					    <tr>
-					    	<th scope="col">Relevant Skills</th>
-					    </tr>
-					</thead>
-					<tbody>
-					    <tr>
-					      	<th scope="row">Experienced in:</th>
-					      	<td>Java, C, C++, Python, HTML, CSS</td>
-					    </tr>
-					    <tr>
-					      	<th scope="row">Literate in:</th>
-					      	<td>OCaml, MIPS</td>
-					    </tr>
-					    <tr>
-					      	<th scope="row">Software:</th>
-					      	<td>Visual Studio, Sublime Text, GDB Debugger, Construct 2, Hammer Level Editor, and many more!</td>
-					    </tr>
-					    <tr>
-					      	<th scope="row">Technical Skills:</th>
-					      	<td>Object-oriented programming, functional languages, scripting languages, recursion, debugging, research and analysis of complex algorithms, and many more!</td>
-					    </tr>
-					    <tr>
-					    	<th scope="row">Soft Skills:</th>
-					     	<td>Great communication skills and enthusiasm, happy to constantly learn new tools and organizations. Highly adapable, able to fit into many different positions in a group (such as leader, follower, or anywhere in between).</td>
-				    	</tr>
-				    </tbody>
-	        	</table>
+						<div class="col-sm-4">
+							<!-- Below is going to show up to the RIGHT of the image.-->
+							<p class="personal_info">His favorite languages to code in are Python and C++, although his other languages are listed below. When he isn't programming, Nicholas enjoys playing Dungeons and Dragons and studying game design and development. He also enjoys reading novels, especially fantasy and science fiction.</p>
+						</div>
+
+						<div class="clearfix"></div>
+						<!--<img  id="personal_info_image" src="images/vermont.jpg" alt="Nicholas Wackowski in Vermont, 2015"> -->
+					<!-- </div> -->
+				</div>
+
+				<div class="row">
+					<div class="col-md-6">
+						<img src="images/toBe.png" alt="Nicholas Wackowski" class="container-fluid">
+					</div>
+					<!-- <div class="col-sm-4">
+						<img src="images/vermont.jpg" alt="Nicholas Wackowski" class="container-fluid">
+					</div> -->
+					<div class="col-md-6">
+						<img src="images/MultiplicationTable.png" alt="Nicholas Wackowski" class="container-fluid">
+					</div>
+				</div>
+
+				<div class="row">
+					<div id="assignment_title">
+						<h4>GITHUB PROJECTS:</h4>	<!-- Header for the list of assignments.-->
+					</div>
+					<hr>
+					<div id="assignments">
+						<ul>	<!-- Creates a list of assignments, which will be added to over the course of the semester.-->
+							<li>The HTML and CSS for this page!</li>
+							<li><a class="link" href="https://lisagieng.github.io/ray/">Recycling And You</a>: Co-developer</li>
+							<li><a class="link" href="https://nicholaswackowski.github.io/MultiplicationTable/">JavaScript Multiplication Table</a>: Developer</li>
+							<li><a class="link" href="https://github.com/NicholasWackowski/FiniteAutomata">Finite Automata Representation</a>: Developer</li>
+							<li><a class="link" href="https://nicholaswackowski.github.io/VirtualDM/">Virtual Dungeon Mayhem Website (proof-of-concept)</a>: Developer</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<!-- Below is a table, copy-pasted from the Bootstrap website. It is dark and lights up when the mouse hovers over it.-->
+		            <table class="table table-dark table-hover">
+		                <thead>
+						    <tr>
+						    	<th scope="col">Relevant Skills</th>
+						    </tr>
+						</thead>
+						<tbody>
+						    <tr>
+						      	<th scope="row">Programming Languages:</th>
+						      	<td>Java, C, C++, Python, SQL, HTML, CSS</td>
+						    </tr>
+						    <tr>
+						      	<th scope="row">OS / Software:</th>
+						      	<td>Windows, Linux, Visual Studio, Sublime Text, Jupyter Notebooks, GDB Debugger, Construct 2, Hammer Level Editor, and many more!</td>
+						    </tr>
+						    <tr>
+						      	<th scope="row">Technical Skills:</th>
+						      	<td>Object-oriented programming, functional languages, scripting languages, recursion, debugging, research and analysis of complex algorithms, and many more!</td>
+						    </tr>
+						    <tr>
+						    	<th scope="row">Soft Skills:</th>
+						     	<td>Great communication skills and enthusiasm, happy to constantly learn new tools and organizations. Highly adapable, able to fit into many different positions in a group (such as leader, follower, or anywhere in between).</td>
+					    	</tr>
+					    </tbody>
+		        	</table>
+			    </div>
 	        </div>
 	    </div>
 	</body>
