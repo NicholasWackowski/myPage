@@ -50,7 +50,7 @@ body {
 	color:#C0B283;
 	font-family: "Times New Roman", Times, serif;
 	font-size:120%;
-	text-align:justify; /*Justifies text, to make the blocks look a bit more defined and clear.*/
+	text-align:center; /*Justifies text, to make the blocks look a bit more defined and clear.*/
 }
 
 #personal_info_1{
